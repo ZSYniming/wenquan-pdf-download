@@ -8,8 +8,8 @@ from PyPDF2 import PdfFileMerger
 choice = input("[1]合并PDF并添加目录\n[2]仅添加目录\n[3]仅合并PDF\n请输入编号： ")
 
 bid = input("请输入书号： ")
-url = "https://lib-nuanxin.wqxuetang.com/v1/book/catatree?bid=" + bid
-bookURL = "https://lib-nuanxin.wqxuetang.com/v1/book/initbook?bid=" + bid
+url = "https://lib-tsinghua.wqxuetang.com/v1/book/catatree?bid=" + bid
+bookURL = "https://lib-tsinghua.wqxuetang.com/v1/book/initbook?bid=" + bid
 
 bookList = {}
 numList = []
